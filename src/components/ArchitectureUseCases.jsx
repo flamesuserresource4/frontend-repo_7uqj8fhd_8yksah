@@ -1,5 +1,5 @@
 import React from 'react';
-import { Workflow, ShieldCheck, Search, Sparkles, ChartBar } from 'lucide-react';
+import { Shield, Search, Sparkles, BarChart3 } from 'lucide-react';
 
 export default function ArchitectureUseCases() {
   return (
@@ -20,10 +20,10 @@ export default function ArchitectureUseCases() {
           <div>
             <h3 className="text-xl font-semibold text-slate-900">High-impact use cases</h3>
             <ul className="mt-4 grid gap-4 sm:grid-cols-2">
-              <UseCase icon={ShieldCheck} title="Fraud detection" desc="Detect suspicious claim networks and behaviors in minutes." />
+              <UseCase icon={Shield} title="Fraud detection" desc="Detect suspicious claim networks and behaviors in minutes." />
               <UseCase icon={Sparkles} title="Policy recommendation" desc="Recommend coverages based on entity relationships and history." />
               <UseCase icon={Search} title="Risk analysis" desc="Surface exposures across portfolios with explainable paths." />
-              <UseCase icon={ChartBar} title="Regulatory reporting" desc="Prove lineage and consistency with semantic metadata." />
+              <UseCase icon={BarChart3} title="Regulatory reporting" desc="Prove lineage and consistency with semantic metadata." />
             </ul>
           </div>
         </div>

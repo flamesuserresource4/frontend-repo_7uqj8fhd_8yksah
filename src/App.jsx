@@ -3,6 +3,8 @@ import Hero from './components/Hero';
 import ProblemSolution from './components/ProblemSolution';
 import Features from './components/Features';
 import ArchitectureUseCases from './components/ArchitectureUseCases';
+import HowItWorksSVG from './components/HowItWorksSVG';
+import GraphExplainers from './components/GraphExplainers';
 import FooterCTA from './components/FooterCTA';
 
 export default function App() {
@@ -11,6 +13,8 @@ export default function App() {
       <Navbar />
       <Hero />
       <ProblemSolution />
+      <HowItWorksSVG />
+      <GraphExplainers />
       <Features />
       <ArchitectureUseCases />
       <AboutVision />
